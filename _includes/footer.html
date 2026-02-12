@@ -1,0 +1,36 @@
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Phubers.blogs</h3>
+                <p>{{ site.description }}</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="{{ '/pages/ai-solver.html' | relative_url }}">Phu AI</a></li>
+                    <li><a href="{{ '/pages/optimizer.html' | relative_url }}">PhuOptimizer 81</a></li>
+                    <li><a href="{{ '/pages/phubers.html' | relative_url }}">Phubers</a></li>
+                    <li><a href="{{ '/pages/youtube.html' | relative_url }}">YouTube</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="https://github.com/phuquoc81" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://youtube.com/@HelloPhú" target="_blank" title="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://twitter.com/phuquoc81" target="_blank" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
