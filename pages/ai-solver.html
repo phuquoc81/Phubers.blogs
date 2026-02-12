@@ -1,0 +1,112 @@
+---
+layout: default
+title: Phu AI - Intelligent Problem Solver
+---
+
+<div class="page-header">
+    <div class="container">
+        <h1 class="page-title">Phu AI</h1>
+        <p class="page-description">Intelligent AI assistant for problem-solving, puzzles, multi-language support, and future predictions</p>
+    </div>
+</div>
+
+<div class="container" id="aiSolver">
+    <div class="ai-container">
+        <h2>Problem Solver</h2>
+        <p>Enter your problem and let Phu AI help you find the solution.</p>
+        
+        <div class="input-group">
+            <label for="problemType">Problem Type:</label>
+            <select id="problemType">
+                <option value="general">General</option>
+                <option value="math">Mathematics</option>
+                <option value="physics">Physics</option>
+                <option value="astronomy">Astronomy</option>
+                <option value="puzzle">Puzzle</option>
+                <option value="prediction">Future Prediction</option>
+            </select>
+        </div>
+        
+        <div class="input-group">
+            <label for="language">Language:</label>
+            <select id="language">
+                <option value="en">English</option>
+                <option value="vi">Tiếng Việt</option>
+                <option value="es">Español</option>
+            </select>
+        </div>
+        
+        <div class="input-group">
+            <label for="problemInput">Your Problem:</label>
+            <textarea id="problemInput" placeholder="Enter your problem here..."></textarea>
+        </div>
+        
+        <button id="solveBtn" class="btn btn-primary">Solve Problem</button>
+        
+        <div id="result" class="result-box" style="display: none;"></div>
+    </div>
+    
+    <div class="ai-container">
+        <h2>Capabilities</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <h3>Mathematics</h3>
+                <p>Solve complex mathematical problems, from algebra to calculus</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-atom"></i>
+                </div>
+                <h3>Physics</h3>
+                <p>Analyze physics problems and calculate solutions</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <h3>Astronomy</h3>
+                <p>Explore celestial phenomena and cosmic events</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-puzzle-piece"></i>
+                </div>
+                <h3>Puzzles</h3>
+                <p>Solve logic puzzles, riddles, and brain teasers</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-crystal-ball"></i>
+                </div>
+                <h3>Predictions</h3>
+                <p>Make informed predictions based on data and trends</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-language"></i>
+                </div>
+                <h3>Multi-Language</h3>
+                <p>Support for multiple languages including English, Vietnamese, and Spanish</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="ai-container">
+        <h2>Example Problems</h2>
+        <ul style="line-height: 2;">
+            <li><strong>Math:</strong> "What is the derivative of x^2 + 3x + 5?"</li>
+            <li><strong>Physics:</strong> "Calculate the velocity of an object falling from 100m"</li>
+            <li><strong>Astronomy:</strong> "How far is Mars from Earth?"</li>
+            <li><strong>Puzzle:</strong> "I have cities but no houses, forests but no trees. What am I?"</li>
+            <li><strong>Prediction:</strong> "What are the trends in AI development for 2026?"</li>
+        </ul>
+    </div>
+</div>
