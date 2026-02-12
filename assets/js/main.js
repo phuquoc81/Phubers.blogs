@@ -364,35 +364,37 @@ async function loadVideos() {
     await sleep(1000);
     
     // Sample video data (in a real implementation, use YouTube Data API)
+    // Note: All videos use placeholder ID 'dQw4w9WgXcQ' for demonstration.
+    // Replace with actual video IDs from your YouTube channel using the YouTube Data API.
     const videos = [
         {
             title: 'Introduction to Phu AI',
-            id: 'dQw4w9WgXcQ',
+            id: 'dQw4w9WgXcQ', // Replace with actual video ID
             description: 'Learn about the powerful capabilities of Phu AI and how it can help solve complex problems.'
         },
         {
             title: 'PhuOptimizer 81 Tutorial',
-            id: 'dQw4w9WgXcQ',
+            id: 'dQw4w9WgXcQ', // Replace with actual video ID
             description: 'Step-by-step guide to optimizing your code with PhuOptimizer 81.'
         },
         {
             title: 'Building with Phubers',
-            id: 'dQw4w9WgXcQ',
+            id: 'dQw4w9WgXcQ', // Replace with actual video ID
             description: 'Explore the Phubers community platform and its social features.'
         },
         {
             title: 'Advanced AI Techniques',
-            id: 'dQw4w9WgXcQ',
+            id: 'dQw4w9WgXcQ', // Replace with actual video ID
             description: 'Deep dive into advanced AI problem-solving techniques.'
         },
         {
             title: 'Code Optimization Best Practices',
-            id: 'dQw4w9WgXcQ',
+            id: 'dQw4w9WgXcQ', // Replace with actual video ID
             description: 'Learn the best practices for writing optimized and efficient code.'
         },
         {
             title: 'Community Highlights',
-            id: 'dQw4w9WgXcQ',
+            id: 'dQw4w9WgXcQ', // Replace with actual video ID
             description: 'Showcasing amazing projects from the Phubers community.'
         }
     ];
